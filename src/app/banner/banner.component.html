@@ -1,0 +1,27 @@
+<!-- banner part start-->
+<section class="banner_part">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-xl-6">
+                <div class="banner_text">
+                    <div class="banner_text_iner">
+                        <h1>Ayudando en tiempos de crisis</h1>
+                        <p>Corina es un asistente virtual desarrollado con el fin de ayudar a la población a solucionar distintas dudas que puedan tener acerca del COVID-19 y apoyarlos en el proceso de enfrentar este virus.</p>
+                        <a href="#" class="btn_2">COVID-19</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="https://web-chat.global.assistant.watson.cloud.ibm.com/loadWatsonAssistantChat.js"></script>
+<script>
+    window.loadWatsonAssistantChat({
+        integrationID: "3cf2f879-27d9-46fa-9df8-d8ec63bcf6cc", // The ID of this integration.
+        region: "us-south" // The region your integration is hosted in.
+    }).then(function(instance) {
+        instance.render();
+    });
+</script>
